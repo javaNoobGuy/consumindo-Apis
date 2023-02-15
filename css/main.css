@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bg_video{
+	position: fixed; 
+	left: 0px; 
+	bottom: 0px;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(../_image/Monaco_Formula1_TodoFierro.jpg) no-repeat;
+	background-size: cover; 
+}
+
+.loginCadastroBg{
+    background-color: rgba(116, 116, 116, 0.466);
+    min-width:120px;
+    max-width: 240px;
+    margin:auto;
+    margin-top: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.loginCadastroBg h2{
+}
+
+.division{
+    width: 80%;
+    margin: 5px 0 5px 0;
+    height: 1px;
+    background-color: rgb(255, 255, 255);;
+}
+
+.loginCadastroBg input{
+
+    max-width: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.loginCadastroBg button{
+
+    border-radius: 5px;
+    border: none;
+}
+
+.loginCadastroBg .last{
+    margin-bottom: 10px;
+}
+
+.doisInput{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 168px;
+    
+
+}
+
+.doisInput input{
+    width: 46%;
+}
+
+.erro{
+    background-color: rgb(219, 123, 123);/*rgb(194, 66, 66)*/
+    color: #860b0b;/*#440505*/
+    border : 2px solid #860b0b;/*#440505*/
+    min-width:120px;
+    max-width: 173px;
+    align : center;
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0px 0px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+ 
+}
+
+
